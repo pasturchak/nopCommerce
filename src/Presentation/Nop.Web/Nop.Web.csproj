@@ -36,14 +36,68 @@
     <EmbeddedResource Remove="Plugins\**;Themes\**" />
     <None Remove="Plugins\**;Themes\**" />
 
-    <Content Include="Plugins\bin\placeholder.txt" CopyToPublishDirectory="PreserveNewest"/>
-    <None Include="Plugins\**"  CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Plugins\bin\placeholder.txt" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" />
 
     <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" Exclude="Themes\**\*.config;Themes\**\*.cshtml;Themes\**\*.json" />
-    <None Include="Themes\**"  CopyToPublishDirectory="PreserveNewest" />
+    <None Include="Themes\**" CopyToPublishDirectory="PreserveNewest" />
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <None Remove="App_Data\Localization\ptbrResources.nopres.xml" />
+    <None Remove="Themes\CardapioVirtual\Content\css\print.css" />
+    <None Remove="Themes\CardapioVirtual\Content\css\styles.css" />
+    <None Remove="Themes\CardapioVirtual\Content\css\styles.rtl.css" />
+    <None Remove="Themes\CardapioVirtual\Content\images\ajax-loader-small.gif" />
+    <None Remove="Themes\CardapioVirtual\Content\images\back-button.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\calendar-next.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\calendar-prev.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\close.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\compare-button.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\details.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\discontinued-product-icon.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\download-button.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\edit.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\edit_.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\email-button.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\first.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\ie_warning.jpg" />
+    <None Remove="Themes\CardapioVirtual\Content\images\last.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\loading.gif" />
+    <None Remove="Themes\CardapioVirtual\Content\images\logo.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\menu-icon.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\move.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\new.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\next.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\pointer.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\prev.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\rating1.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\rating2.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\remove.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\remove_.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\reply.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\retry.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\return.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\rss.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\shipping.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\shopping-bag.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\social-sprite.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\subscribe-button.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\toggle-black.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\toggle-gray.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\toggle-white.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\topic-type1.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\topic-type2.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\topic-type3.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\view-grid.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\view-list.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\vote-down-selected.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\vote-down.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\vote-up-selected.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\vote-up.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\watch.png" />
+    <None Remove="Themes\CardapioVirtual\Content\images\wishlist-button.png" />
+    <None Remove="Themes\CardapioVirtual\preview.jpg" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
